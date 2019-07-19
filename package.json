@@ -1,0 +1,26 @@
+{
+  "name": "konektron-api",
+  "version": "1.0.0",
+  "description": "konektron api client project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivamgf/Konektron-Api.git"
+  },
+  "keywords": [
+    "api",
+    "konektron"
+  ],
+  "author": "ivam galvao filho",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ivamgf/Konektron-Api/issues"
+  },
+  "homepage": "https://github.com/ivamgf/Konektron-Api#readme",
+  "dependencies": {
+    "composer": "^4.1.0"
+  }
+}
