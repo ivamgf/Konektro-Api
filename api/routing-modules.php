@@ -14,10 +14,20 @@
                 case "/profile":
                     include("profile/profile.php");
                     break;
+                default:
+                    include("/");
+                    break;
             }
         }
         if($method === "POST") {
-
+            switch($url) {
+                case "/profile":
+                    include("profile/profile.php");
+                    break;
+                default:
+                    include("/");
+                    break;
+            }
         }
     }
 ?>
